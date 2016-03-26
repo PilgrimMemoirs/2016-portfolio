@@ -1,0 +1,320 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans);
+
+svg {
+  height: 110%;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+}
+
+.cool-img {
+/*   height: 250px; */
+  width: 195%;
+  margin-left: -50%;
+  display: relative;
+  z-index: -100;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.cool-img p {
+  width: 50%;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.65); 
+  padding: 3%;
+  text-align: justify;
+  color: white;
+}
+
+#img1 {
+    background-image: url("http://3.bp.blogspot.com/-7kHsBSsoNVk/UrHGy8g1-MI/AAAAAAAAA4s/WFPGUkdfbvE/s640/Minneapolis2013_jamiepilgrim-1-39.jpg");
+
+}
+
+#img2 {
+    background-image: url("https://scontent.ford1-1.fna.fbcdn.net/hphotos-xfp1/t31.0-8/739684_4786073021898_1815477253_o.jpg");
+}
+
+#img3 {
+    background-image: url("http://3.bp.blogspot.com/-z6_8ecMh-LE/UpFbOOygBJI/AAAAAAAAAjc/vhNnRqbvWIg/s640/2013_kidsphotoshoot-94.jpg");
+}
+
+.cool-img {
+  text-align: center; 
+}
+/* 
+#test {
+  width: 195%;
+  margin-left: -50%;
+  display: relative;
+  z-index: -100;
+  background-color: #FAF06C;
+} */
+
+ h2 {
+/*  background: rgba(0,0,0,0.5);  */
+  color: white;
+  font-size: 3em;
+  text-shadow: 1px 2px #6b6b6b;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #f4;
+}
+
+
+#hot-bod {
+  text-align: justify;
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 5%;
+  font-family: 'Open Sans', sans-serif;
+  color: #4c4c4c;
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  color: #3373b9;
+}
+
+a:hover {
+  color: #119FC2;
+}
+
+h3 {
+  margin: 5% 0 0 0;
+  font-size: 2em;
+  margin-bottom: 0;
+  line-height: 1.1;
+  text-align: left;
+/*   font-family: 'bree serif', serif; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: block;
+}
+
+h1 {
+  font-family: 'bree serif', serif;
+  color: #9bcb52;
+  font-size: 3em;
+  text-shadow: 1px 2px #7ea342;
+}
+
+.two-img img{
+  width: 49.5%;
+}
+
+#portfolio ul {
+  position: relative;
+  bottom: right;
+  width: 9%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  left: -5%;
+  z-index: 50;
+}
+
+#next {
+  height: 80px;
+  width: 80px;
+  background-color: #9e9e9e;
+  text-align: center;
+  color: white;
+  border: 2px solid black;
+  border-radius: 100% 0 100% 100%;
+  padding: 2%;
+  float: right;
+}
+
+#next:hover {
+  background-color: #2e798c;
+}
+
+#card-pic {
+  width: 100%;
+  height: 300px;
+  background-image: url("http://www.wired.com/images_blogs/business/2010/11/Geocities.jpg");
+  display: inline-block;
+  border-radius: 15px 0 15px 15px;
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #bbb5af;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #bbb5af;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+  color: #bbb5af;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: #bbb5af;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: #cbc6c1;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: #e2dedb;
+  color: #b3aca7;
+}
+
+header {
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background: transparent;
+  outline: none;
+  color: #726659;
+  
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  
+  background: transparent;
+  outline: none;
+  
+  color: #726659;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  
+  border: solid 1px #b3aca7;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+#submit {
+
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  font-family: 'OPEN SANS', sans-serif;
+  font-size: 0.875em;
+  color: #b3aca7;
+  
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #e2dedb;
+}
