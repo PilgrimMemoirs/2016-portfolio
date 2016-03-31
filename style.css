@@ -56,6 +56,11 @@ a {
   color: #119FC2;
 }
 
+#intro a {
+  background-color: rgba(250, 240, 108, .5);
+}
+
+
 h3 {
   margin: 5% 0 0 0;
   font-size: 2em;
