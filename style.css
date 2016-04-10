@@ -177,7 +177,7 @@ h1 {
 }
 
 #connect {
-  background-color: rgba(63, 144, 166, 0.25);
+ /* background-color: rgba(63, 144, 166, 0.25);*/
   margin-left: -50%;
   width: 95%;
   padding: 1.5% 50%;
