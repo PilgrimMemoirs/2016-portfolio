@@ -441,3 +441,17 @@ textarea:hover {
     width: 100%;
   }
 }
+
+@media (min-height: 900px) {
+
+  #side-graphic {
+    left: -70px;
+  }
+}
+
+@media (min-height: 1300px) {
+
+  #side-graphic {
+    left: -220px;
+  }
+}
