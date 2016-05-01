@@ -54,7 +54,7 @@ a {
 }
 
 #hot-bod p a:hover, a:hover {
-  color: #119FC2;
+  color: #F600F5;
 }
 
 #intro a {
@@ -192,7 +192,8 @@ h1 {
 }
 
 .cls-1:hover {
-  fill: rgba(63, 144, 166, 0.90);
+  fill: #F600F5;
+  opacity: .8;
   transition: .5s;
 }
 
@@ -353,7 +354,7 @@ textarea {
 
 textarea:hover {
   background: #b3aca7;
-  color: #e2dedb;
+  color: #F600F5;
 }
 
 #submit {
@@ -393,9 +394,8 @@ textarea:hover {
     width: 185%;
   }
 
-  #connect {
-    width: 185%;
-  }
+
+
 
 }
 
@@ -444,6 +444,7 @@ textarea:hover {
 
   #side-graphic {
     left: -70px;
+    opacity: .75;
   }
 }
 
