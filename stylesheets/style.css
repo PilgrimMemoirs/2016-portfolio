@@ -101,19 +101,19 @@ footer {
 }
 
 /* VISIBLE SCROLL BAR */
-MAIN::-webkit-scrollbar {
+main::-webkit-scrollbar {
     -webkit-appearance: none;
 }
 
-MAIN::-webkit-scrollbar:vertical {
+main::-webkit-scrollbar:vertical {
     width: 11px;
 }
 
-MAIN::-webkit-scrollbar:horizontal {
+main::-webkit-scrollbar:horizontal {
     height: 11px;
 }
 
-MAIN::-webkit-scrollbar-thumb {
+main::-webkit-scrollbar-thumb {
     border-radius: 8px;
     border: 2px solid white; /* should match background, can't be transparent */
     background-color: rgba(0, 0, 0, .5);
@@ -137,7 +137,10 @@ MAIN::-webkit-scrollbar-thumb {
 }
 
 @media only screen and ( max-width: 1250px ) {
-    main { width: 50%; }
+    main { 
+        width: 50%; 
+        height: 40%;
+    }
     
 
     .more-info li a {
