@@ -126,7 +126,7 @@ main::-webkit-scrollbar-thumb {
 
 @media only screen and ( max-width: 600px ) {
     main, header { width: 50%; }
-    main { height: 55%; }
+    main { height: 40%; }
 
     header{
         margin: 0 auto;
@@ -137,10 +137,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 @media only screen and ( max-width: 1250px ) {
-    main { 
-        width: 50%; 
-        height: 40%;
-    }
+    main { width: 50%; }
     
 
     .more-info li a {
