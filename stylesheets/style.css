@@ -33,9 +33,10 @@ a:link,  a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
-.more-info li:hover { background-color: #6fced3; }
+.more-info a:hover { background-color: #6fced3; }
 svg { fill:#383838; }
 .social-icon:hover { fill:  #6fced3; }
+.about a:hover { color: #6fced3; }
 
 
 /**************/
@@ -53,12 +54,15 @@ header {
 
 main {
     width: 30%;
-    height: 50%;
+    height: 60%;
     margin: 0 auto;
     overflow: auto;
 }
 
-.about { font-size: 1.25rem; }
+.about { 
+    font-size: 1.25rem; 
+    margin-bottom: 10%;
+}
 
 .more-info {
     font-family: 'Roboto', sans-serif;
@@ -68,13 +72,16 @@ main {
 
 .more-info li {
     display: inline-block;
+
+}
+
+.more-info li a { 
+    color: white;
     background-color:#a2a2a2;
     padding: 20px; 
     border-radius: 5%;
     width: 60px;
-}
-
-.more-info li a { color: white; }
+ }
 
 /**************/
 /** FOOTER **/
@@ -125,17 +132,20 @@ MAIN::-webkit-scrollbar-thumb {
         margin: 0 auto;
         padding: 8% 0;
     } 
+
+    .more-info li { padding: 10%; }
 }
 
 @media only screen and ( max-width: 1250px ) {
     main { width: 50%; }
+    
 
-    .more-info li {
+    .more-info li a {
+        color: #383838;
         background-color: transparent;
         width: inherit;
     }
-    
-    .more-info li a { color: #383838; }
+
     .more-info li a:hover { color: #6fced3; }
-    .more-info li:hover { background-color: transparent; }
+    .more-info li a:hover { background-color: transparent; }
 }
