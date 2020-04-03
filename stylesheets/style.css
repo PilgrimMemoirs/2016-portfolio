@@ -15,7 +15,7 @@ body
     font-family: font-family: 'PT Serif', serif;
 }
 
-.main-heading { 
+.main-heading {
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
     border-bottom: #6fced3 solid 1px;
@@ -33,7 +33,6 @@ a:link,  a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
-.more-info a:hover { background-color: #6fced3; }
 svg { fill:#383838; }
 .social-icon:hover { fill:  #6fced3; }
 .about a:hover { color: #6fced3; }
@@ -56,12 +55,14 @@ main {
     width: 30%;
     height: 60%;
     margin: 0 auto;
-    overflow: auto;
+
 }
 
-.about { 
-    font-size: 1.25rem; 
+.about {
+    font-size: 1.25rem;
     margin-bottom: 10%;
+    height: 75%;
+    overflow: auto;
 }
 
 .more-info {
@@ -71,17 +72,18 @@ main {
 }
 
 .more-info li {
-    display: inline-block;
-
+  display: inline-block;
+  padding: 0 5%;
 }
+.more-info li a:hover { color: #6fced3; }
 
-.more-info li a { 
+/* .more-info li a {
     color: white;
     background-color:#a2a2a2;
-    padding: 20px; 
+    padding: 20px;
     border-radius: 5%;
     width: 60px;
- }
+ } */
 
 /**************/
 /** FOOTER **/
@@ -96,6 +98,7 @@ footer {
 
 .social-icons li {
     width: 30px;
+    padding: 0 3%;
     display: inline-block;
     padding-right: 1.5rem;
 }
@@ -131,21 +134,10 @@ main::-webkit-scrollbar-thumb {
     header{
         margin: 0 auto;
         padding: 8% 0;
-    } 
+    }
 
-    .more-info li { padding: 10%; }
 }
 
 @media only screen and ( max-width: 1250px ) {
     main { width: 50%; }
-    
-
-    .more-info li a {
-        color: #383838;
-        background-color: transparent;
-        width: inherit;
-    }
-
-    .more-info li a:hover { color: #6fced3; }
-    .more-info li a:hover { background-color: transparent; }
 }
