@@ -3,57 +3,78 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>jQuery UI Draggable - Default functionality</title>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
+  <title>Jamie Pilgrim</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheets/reset.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
   $( function() {
     $( "#about, #projects, #contact" ).draggable();
-  } );
+  });
   </script>
 </head>
 <body>
+  <div id="icons">
+    <div>
+      <img src="imgs/doc.svg" alt="document icon">
+      <p>About</p>
+    </div>
 
-<div id="about">
-  <p>Drag me around</p>
-</div>
+    <div>
+      <img src="imgs/folder.svg" alt="folder icon">
+      <p>Projects</p>
+    </div>
 
-<div id="projects">
-  <p>Drag me around</p>
-</div>
+    <div>
+      <a href="jamie-pilgrim-resume.pdf" target="_blank" alt="resume">
+        <img src="imgs/doc.svg" alt="document icon">
+        <p>Resume</p>
+      </a>
+    </div>
 
-<div id="contact">
-  <p>Drag me around</p>
-</div>
+    <div>
+      <img src="imgs/folder.svg" alt="folder icon">
+      <p>Connect</p>
+    </div>
 
-<div id="icons">
-  <div>
-    <img src="imgs/doc.svg" alt="document icon">
-    <p>About</p>
+    <div>
+    </div>
   </div>
 
-  <div>
-    <img src="imgs/folder.svg" alt="folder icon">
-    <p>Projects</p>
+
+  <div class="window" id="about">
+    <div class="top-bar">
+      <p>About</p>
+      <p>X</p>
+    </div>
+    <div class="content">
+      <p> About Me! </p>
+    </div>
   </div>
 
-  <div>
-    <img src="imgs/doc.svg" alt="document icon">
-    <p>Resume</p>
+  <div class="window" id="projects">
+    <div class="top-bar">
+      <p>Projects</p>
+    </div>
+    <div class="content">
+      <!-- <img src="imgs/github.svg" alt="github profile">
+      <img src="imgs/linkedin.svg" alt="linkedin profile">
+      <img src="imgs/twitter.svg" alt="twitter profile"> -->
+    </div>
   </div>
 
-  <div>
-    <img src="imgs/folder.svg" alt="folder icon">
-    <p>Connect</p>
+  <div class="window" id="contact">
+    <div class="top-bar">
+      <p>Contact</p>
+    </div>
+    <div class="content">
+      <img src="imgs/github.svg" alt="github profile">
+      <img src="imgs/linkedin.svg" alt="linkedin profile">
+      <img src="imgs/twitter.svg" alt="twitter profile">
+    </div>
   </div>
-
-  <div>
-  </div>
-</div>
-
-
 </body>
 </html>
 
