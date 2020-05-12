@@ -9,32 +9,29 @@
   <link rel="stylesheet" href="stylesheets/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    $( "#about, #projects, #contact" ).draggable();
-  });
-  </script>
+  <script src="scripts.js"></script>
+
 </head>
 <body>
   <div id="icons">
-    <div>
+    <div id="about-icon">
       <img src="imgs/doc.svg" alt="document icon">
       <p>About</p>
     </div>
 
-    <div>
+    <div id="projects-icon">
       <img src="imgs/folder.svg" alt="folder icon">
       <p>Projects</p>
     </div>
 
-    <div>
+    <div id="resume-icon">
       <a href="jamie-pilgrim-resume.pdf" target="_blank" alt="resume">
         <img src="imgs/doc.svg" alt="document icon">
         <p>Resume</p>
       </a>
     </div>
 
-    <div>
+    <div id="connect-icon">
       <img src="imgs/folder.svg" alt="folder icon">
       <p>Connect</p>
     </div>
@@ -47,16 +44,19 @@
   <div class="window" id="about">
     <div class="top-bar">
       <p>About</p>
-      <p>X</p>
+      <p id="exit-about">X</p>
     </div>
     <div class="content">
-      <p> About Me! </p>
+      <p>Jamie is Seattle-based, customer-focused software engineer with a background in teaching, technical program management and design. She enjoys working on consumer-facing products within mission-driven organizations. </p>
+      <br><p>After completing DevBootcamp in January 2015, she taught over the course of three years at various institutions, including Ada Developers Academy, Kode with Klossy, General Assembly, Skillcrush, Flatiron School and The Latin School of Chicago. She then worked as a full-stack software engineer at Avvo for two years before being accepted into Microsoft's LEAP apprenticeship program where she is currently working as as a technical program manager.</p>
+      <br><p>Her off-screen time includes climbing, hiking and backpacking around the PNW with her two trusty pups.</p>
     </div>
   </div>
 
   <div class="window" id="projects">
     <div class="top-bar">
       <p>Projects</p>
+      <p id="exit-projects">X</p>
     </div>
     <div class="content">
       <!-- <img src="imgs/github.svg" alt="github profile">
@@ -65,9 +65,10 @@
     </div>
   </div>
 
-  <div class="window" id="contact">
+  <div class="window" id="connect">
     <div class="top-bar">
-      <p>Contact</p>
+      <p>Connect</p>
+      <p id="exit-connect">X</p>
     </div>
     <div class="content">
       <img src="imgs/github.svg" alt="github profile">

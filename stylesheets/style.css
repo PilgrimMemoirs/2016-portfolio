@@ -57,9 +57,9 @@ body
 /* WINDOW TOP BAR  */
 
 .window .top-bar {
-  background-color: gray;
+  border-bottom: 1px solid black;
   border-radius: 4px 4px 0 0;
-  color: white;
+  padding: .25em;
 }
 
 .window .top-bar p:first-child {
@@ -90,16 +90,19 @@ body
 }
 
 #about {
+  width: 35em;
   top: 5%;
   left: 5%;
 }
 
-#contact {
-  top: 50%;
-  left: 40%;
+#connect {
+  display: none;
 }
 
 #projects {
-  top: 10%;
-  left: 50%;
+  display: none;
+}
+
+p[id^=exit], div[id$=icon] {
+  cursor: pointer;
 }
