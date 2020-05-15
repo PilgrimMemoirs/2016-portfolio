@@ -1,46 +1,16 @@
 $( document ).ready(function() {
 
     $( function() {
-      $( "#about, #projects, #connect, #about-icon, #projects-icon, #resume-icon, #connect-icon" ).draggable();
+      $( "#about, #projects, #connect" ).draggable();
     });
 
-
-    $( "#projects-icon" ).on("dblclick", function() {
-      $("#projects").show();
+    $( "div[id$=icon]" ).on("click", function() {
+      $("#" + this.id.split("-")[0]).show();
     });
 
-    // $( "#projects-icon" ).on("click", function() {
-    //   $("#projects").show();
-    // });
-
-    $( "#about-icon" ).on("dblclick", function() {
-      $("#about").show();
-    });
-
-    // $( "#about-icon" ).on("click", function() {
-    //   $("#about").show();
-    // });
-
-    $( "#connect-icon" ).on("dblclick", function() {
-      $("#connect").show();
-    });
-
-    // $( "#connect-icon" ).on("click", function() {
-    //   $("#connect").show();
-    // });
-
-    $( "#exit-connect" ).on("click", function() {
-      $("#connect").hide();
-    });
-
-    $( "#exit-projects" ).on("click", function() {
-      $("#projects").hide();
-    });
-
-    $( "#exit-about" ).on("click", function() {
-      $("#about").hide();
-    });
-
+  $( "p[id^=exit]" ).on("click", function() {
+    $("#" + this.id.split("-")[1]).hide();
+  });
 
 
 });
