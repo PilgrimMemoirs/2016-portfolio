@@ -4,15 +4,8 @@
 
 body
 {
-    border: 20px solid#383838;;
-    color: #383838;;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: auto;
-    font-family: 'Raleway', sans-serif;
+  color: #383838;;
+  font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -90,24 +83,61 @@ a {
 }
 
 #about {
-  width: 35em;
+  width: 50%;
+  height: 350px;
   top: 5%;
   left: 5%;
+  overflow: scroll;
 }
 
 #connect {
+  top: 5%;
+  left: 5%;
   display: none;
   text-align: center;
 }
 
 #projects {
+  top: 5%;
+  left: 5%;
   display: none;
+  width: 40%;
 }
 
 #projects img {
   margin: 0 1em auto;
 }
 
+#projects a:hover {
+  color: red;
+}
+
+#projects a {
+  display: inline-block;
+  padding: 1em;
+}
+
 p[id^=exit], div[id$=icon] {
   cursor: pointer;
+}
+
+
+/******************
+***** MOBILE *****
+******************/
+#mobile {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  #desktop {
+    display: none;
+  }
+  #mobile {
+    display: block;
+  }
+
+  h1, #mobile-contact { text-align: center }
+
+  a:hover { color: yellow; }
 }
